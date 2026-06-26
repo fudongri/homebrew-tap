@@ -9,6 +9,10 @@ cask "freedb" do
 
   app "FreeDB.app"
 
+  postflight do
+    system_command "/usr/bin/xattr", args: ["-cr", "#{staged_path}/FreeDB.app"]
+  end
+
   zap trash: [
     "~/Library/Application Support/freedb",
     "~/Library/Saved Application State/com.freedb.desktop.savedState",
