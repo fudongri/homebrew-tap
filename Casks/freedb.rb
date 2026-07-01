@@ -1,6 +1,6 @@
 cask "freedb" do
   version "0.1.0"
-  sha256 "59c6ace6d6255b4ec6d8d80655d0ab4004f25c73e7fdb717fcd733384b47ccdf"
+  sha256 "28a13259e11048c09e078c14ab46b08146653673c20f57f0e3e36a3476e4b397"
 
   url "https://github.com/fudongri/freeDB/releases/download/#{version}/FreeDB.dmg"
   name "FreeDB"
